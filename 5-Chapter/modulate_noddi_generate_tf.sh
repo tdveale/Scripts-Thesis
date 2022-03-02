@@ -1,6 +1,7 @@
 #!/bin/bash
 # Calculates NDI and ODI images that are modulated by 1-iso (i.e. tissue-fraction).
 # These can then be taken into ROI analysis to create tissue weighted averages
+# see https://github.com/tdveale/TissueWeightedMean for more details
 
 iso=$1
 ndi=$2
